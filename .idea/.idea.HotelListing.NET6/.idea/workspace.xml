@@ -9,14 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1505f6c-4216-4dcd-abe6-37a6379607aa" name="Changes" comment="Used AutoMapper and Added repositories to not show database logic to the controller for scaling purposes">
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Contracts/IHotelsRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/BaseHotelDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/CreateHotelDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HotelListing.API/Repository/HotelsRepository.cs" afterDir="false" />
+    <list default="true" id="f1505f6c-4216-4dcd-abe6-37a6379607aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/HotelListing.API/Data/ApiUser.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.HotelListing.NET6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HotelListing.NET6/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Configurations/MapperConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Configurations/MapperConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/HotelDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Models/Hotel/HotelDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Data/HotelListingDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Data/HotelListingDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/HotelListing.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/HotelListing.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotelListing.API/Migrations/HotelListingDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Migrations/HotelListingDbContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HotelListing.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HotelListing.API/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +41,9 @@
         <option name="url" value="https://github.com/real-tanaka/HotelListingDotNet.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f94c802704e2437ba57b1f82830e52f710600/7e/37bc871e/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -136,7 +137,7 @@
       <updated>1707850454758</updated>
       <workItem from="1707850456295" duration="2496000" />
       <workItem from="1707853229676" duration="3398000" />
-      <workItem from="1708009185201" duration="23411000" />
+      <workItem from="1708009185201" duration="28646000" />
     </task>
     <task id="LOCAL-00001" summary="second init">
       <option name="closed" value="true" />
@@ -162,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708186771475</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Hotels API route">
+      <option name="closed" value="true" />
+      <created>1708777420085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708777420085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,7 +194,8 @@
     <MESSAGE value="second init" />
     <MESSAGE value="added Api Route for Countries" />
     <MESSAGE value="Used AutoMapper and Added repositories to not show database logic to the controller for scaling purposes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Used AutoMapper and Added repositories to not show database logic to the controller for scaling purposes" />
+    <MESSAGE value="Added Hotels API route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Hotels API route" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
